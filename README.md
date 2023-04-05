@@ -9,7 +9,7 @@
 适用于 Openwrt.org 官方的21.02 版本
 安装命令
 
-`wget -qO- https://66o99.github.io/ssrp/op-ssrp.sh | sh`       //直接一条命令搞定
+```wget -qO- https://66o99.github.io/ssrp/op-ssrp.sh | sh```       //直接一条命令搞定
 
 #/bin/sh op-ssrp.sh  //旧命令用不上了
 
