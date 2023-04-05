@@ -1,4 +1,4 @@
-GL-Inet Mt-300n-v2 / Mt-1300 - 酸酸乳.SSRP  - 猫咪.OpenClash   插件在线安装（教程）
+###GL-Inet Mt-300n-v2 / Mt-1300 - 酸酸乳.SSRP  - 猫咪.OpenClash   插件在线安装（教程）
 
 安装前先恢复出厂设置，确定Wan口插入网线，保证互联网通畅，使用网页版SSH终端插件进行安装，安装步骤如下！
 进入软件包更新一下，然后安装luci-i18n-ttyd-zh-cn 后在服务里打开 Ttyd 或Terminal ，用户名：root 密码：空/自设的，
