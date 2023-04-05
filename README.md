@@ -23,7 +23,7 @@ wget -qO- https://66o99.github.io/ssrp/gl-ssrp.sh | sh
 
 ///////////////////////////////////////////////////////////////////////////////
 
-##### 仅适用于 Gl-inet 的 128M-Nand 魔改版,其他没版本测试过！
+##### 仅适用于 Gl-inet 的 128M-Nand 魔改版,其他版本还没有测试过！
 ```
 wget -qO- https://66o99.github.io/ssrp-full/ssrp-full.sh | sh   
 ```
