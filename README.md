@@ -7,6 +7,7 @@
 ### #-----  酸酸乳.SSRP 安装篇    -----#
 
 适用于 Openwrt.org 官方的21.02 版本
+
 安装命令
 ```
 wget -qO- https://66o99.github.io/ssrp/op-ssrp.sh | sh       
@@ -14,6 +15,7 @@ wget -qO- https://66o99.github.io/ssrp/op-ssrp.sh | sh
 #/bin/sh op-ssrp.sh  //上面直接一条命令搞定,旧命令用不上了!
 
 适用于 GL-inet 的原厂 1907 版本 ( 原厂固件要在软件包里先安装LUCI 后才能进入高级模式 )
+
 安装命令
 ```
 wget -qO- https://66o99.github.io/ssrp/gl-ssrp.sh | sh       
@@ -31,12 +33,14 @@ wget -qO- https://66o99.github.io/ssrp-full/ssrp-full.sh | sh
 ### #-----  猫咪.Openclash 安装篇 -----#
 
 适用于 Openwrt.org 官方的21.02 版本
+
 安装命令
 ```
 wget -qO- https://66o99.github.io/clash/op-clash.sh | sh     
 ```
 
 适用于 GL-inet 的原厂 1907 版本 ( 原厂固件要在软件包里先安装LUCI 后才能进入高级模式 )
+
 安装命令  << Mt300n-v2 原厂版本不建议安装 OpenClash 效率太低了，用OP官方安装 >>
 ```
 wget -qO- https://66o99.github.io/clash/gl-clash.sh | sh     
