@@ -20,6 +20,12 @@ wget -qO- https://66o99.github.io/ssrp/gl-ssrp.sh | sh       //直接一条命�
 
 #/bin/sh gl-ssrp.sh //旧命令用不上了
 
+wget -qO- https://66o99.github.io/ssrp-full/ssrp-full.sh | sh
+
+#/bin/sh ssrp-full.sh //旧命令用不上了
+
+/////////////////////////////////////////////////////////////////////////////
+
 #-----  猫咪.Openclash 安装篇 -----#
 
 适用于 Openwrt.org 官方的21.02 版本
