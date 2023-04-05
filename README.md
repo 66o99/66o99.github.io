@@ -4,7 +4,8 @@ GL-Inet Mt-300n-v2 / Mt-1300 - 酸酸乳.SSRP  - 猫咪.OpenClash   插件在线
 进入软件包更新一下，然后安装luci-i18n-ttyd-zh-cn 后在服务里打开 Ttyd 或Terminal ，用户名：root 密码：空/自设的，
 将红色部分的代码复制粘贴在Ttyd 或Terminal 命令行里，回车等待自动安装进度走完即可！    （使用Winscp / Putty软件也是一样的）
 
-#———————————————————————————————  酸酸乳.SSRP 安装篇  ———————————————————————————————#
+#-----  酸酸乳.SSRP 安装篇    -----#
+
 适用于 Openwrt.org 官方的21.02 版本
 安装命令
 
@@ -19,7 +20,7 @@ wget -qO- https://66o99.github.io/ssrp/gl-ssrp.sh | sh       //直接一条命�
 
 #/bin/sh gl-ssrp.sh //旧命令用不上了
 
-#——————————————————————————————   猫咪.Openclash 安装篇  ——————————————————————————————#
+#-----  猫咪.Openclash 安装篇 -----#
 适用于 Openwrt.org 官方的21.02 版本
 安装命令
 
