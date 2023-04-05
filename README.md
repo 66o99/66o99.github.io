@@ -8,9 +8,9 @@
 
 适用于 Openwrt.org 官方的21.02 版本
 安装命令
-
-```wget -qO- https://66o99.github.io/ssrp/op-ssrp.sh | sh```       //直接一条命令搞定
-
+```
+wget -qO- https://66o99.github.io/ssrp/op-ssrp.sh | sh       //直接一条命令搞定
+```
 #/bin/sh op-ssrp.sh  //旧命令用不上了
 
 适用于 GL-inet 的原厂 1907 版本 ( 原厂固件要在软件包里先安装LUCI 后才能进入高级模式 )
