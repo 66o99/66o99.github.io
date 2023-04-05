@@ -42,4 +42,4 @@ wget -qO- https://66o99.github.io/clash/op-clash.sh | sh
 wget -qO- https://66o99.github.io/clash/gl-clash.sh | sh     
 ```
 
-遇到出错的仔细观察错误提示，OP的插件出错无非就是缺乏依赖或者版本内核不兼容，缺乏依赖的话可以从其他软件源搜索到复制链接过来安装即可！
+遇出错的观察错误提示，OP插件出错无非就是缺乏依赖或者版本内核不兼容，缺乏依赖可以从其他软件源搜索并复制链接过来安装即可！
