@@ -11,11 +11,11 @@ read input
 
 cd /tmp && opkg update
 if [ $(sed -n '7p' /etc/banner | cut -c 10,11,13,14) = 1907 ];then
-echo "Yes!"
+echo "......"
 opkg install coreutils coreutils-base64 iptables-mod-tproxy libuci-lua libudns libmbedtls12
 
 else
-echo "No...."
+echo "......"
 fi
 
 wget https://ghproxy.com/https://github.com/66o99/66o99.github.io/blob/main/ssrp-full/ssrp-full.zip
@@ -28,13 +28,13 @@ rm -rf ssrp-full.zip *-*.ipk
 
 cd /tmp && opkg update
 if [ $(sed -n '7p' /etc/banner | cut -c 10,11,13,14) = 1907 ];then
-echo "Yes!"
+echo "......"
 opkg install luci luci-i18n-base-zh-cn wget coreutils-nohup bash luci-compat
 opkg install http://66o99.github.io/clash/libcap_2.43-1_mipsel_24kc.ipk
 opkg install http://66o99.github.io/clash/libcap-bin_2.43-1_mipsel_24kc.ipk
 
 else
-echo "No...."
+echo "......"
 opkg remove  dnsmasq
 opkg install dnsmasq-full --force-depends
 opkg install wget coreutils coreutils-nohup bash curl ca-certificates ipset ip-full iptables-mod-tproxy kmod-tun luci-compat luci-i18n-base-zh-cn
