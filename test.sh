@@ -1,18 +1,17 @@
 #!/bin/sh
+# wget https://66o99.github.io/test.sh && /bin/sh test.sh
 cat << EOF
  -----------------------------------------------------
-
   1 = ShadowSocksR+  2 = OpenClash   < --- Full   - >
-
+ -----------------------------------------------------
   3 = SSR+_Mini_only-2MB   < --- No -V2ray/Trojan - >
-
  -----------------------------------------------------
 EOF
 echo "1/2/3"
 read input
 
-  if [ $input = 1 ];then
-  echo "ok ! install - ShadowSocksR - waiting..."
+	if [ $input = 1 ];then
+	echo "ok ! install - ShadowSocksR - waiting..."
 
 cd /tmp && opkg update
 if [ $(sed -n '7p' /etc/banner | cut -c 10,11,13,14) = 1907 ];then
@@ -27,8 +26,8 @@ unzip -o ssrp-full.zip
 opkg install *.ipk
 rm -rf ssrp-full.zip *-*.ipk
 
-  elif [ $input = 2 ];then
-  echo "ok ! install - OpenClash - waiting....."
+	elif [ $input = 2 ];then
+	echo "ok ! install - OpenClash - waiting....."
 
 cd /tmp && opkg update
 if [ $(sed -n '7p' /etc/banner | cut -c 10,11,13,14) = 1907 ];then
@@ -45,8 +44,8 @@ wget https://ghproxy.com/https://github.com/vernesong/OpenClash/releases/downloa
 opkg install luci-app-openclash_*.ipk
 rm -rf luci-app-openclash_*.ipk
 
-  elif [ $input = 3 ];then
-  echo "ok ! install - SSR+_Mini - waiting..... "
+	elif [ $input = 3 ];then
+	echo "ok ! install - SSR+_Mini - waiting..... "
 
 cd /tmp && opkg update
 if [ $(sed -n '7p' /etc/banner | cut -c 10,11,13,14) = 1907 ];then
@@ -62,6 +61,6 @@ unzip -o ssrp.zip
 opkg install *.ipk
 rm -rf ssrp.zip *-*.ipk
 
-  else
-  echo "ok ! install - End ."
-  fi
+	else
+	echo "ok ! install - End ."
+	fi
