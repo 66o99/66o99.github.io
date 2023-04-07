@@ -47,8 +47,3 @@ rm -rf luci-app-openclash_*.ipk
   else
   echo "ok ! install - End ."
   fi
-
-
-
-
-
