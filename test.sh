@@ -5,6 +5,7 @@ if [ $(sed -n '7p' /etc/banner | cut -c 10,11,13,14) = 1907 ];then
 opkg install coreutils coreutils-base64 iptables-mod-tproxy libuci-lua libudns libmbedtls12
 else
 #echo "No...."
+fi
 wget https://ghproxy.com/https://github.com/66o99/66o99.github.io/blob/main/ssrp-full/ssrp-full.zip
 unzip -o ssrp-full.zip
 opkg install *.ipk
