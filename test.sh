@@ -1,3 +1,4 @@
+#!/bin/sh
 cat << EOF
  -----------------------------------------------------
   1 = install_ShadowSocksR+     2 = install_OpenClash 
