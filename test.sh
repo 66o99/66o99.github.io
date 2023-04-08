@@ -1,6 +1,6 @@
 #!/bin/sh
 # wget https://66o99.github.io/test.sh && /bin/sh test.sh
-cd /tmp && opkg update && clear && rm -rf /root/*.sh
+rm -rf test.sh && cd /tmp && opkg update && clear
 cat << EOF
  -----------------------------------------------------
   1 = ShadowSocksR+  2 = OpenClash   < --  Full   - >
