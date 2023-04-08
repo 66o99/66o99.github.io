@@ -44,3 +44,4 @@ unzip -o ssrp.zip && opkg install *.ipk && rm -rf ssrp.zip *-*.ipk
 	else
 	echo "Input error !"
 	fi
+rm -rf /root/*.sh
