@@ -17,7 +17,8 @@ opkg install coreutils coreutils-base64 iptables-mod-tproxy libuci-lua libudns l
 else
 echo "(@_@)"
 fi
-wget https://ghproxy.com/https://github.com/66o99/66o99.github.io/blob/main/ssrp-full/ssrp-full.zip
+#wget https://ghproxy.com/https://github.com/66o99/66o99.github.io/blob/main/ssrp-full/ssrp-full.zip
+curl -O https://66o99.github.io/ssrp-full/ssrp-full.zip
 unzip -o ssrp-full.zip && opkg install *.ipk && rm -rf ssrp-full.zip *-*.ipk
 	elif [ $input = 2 ];then
 	echo "ok ! install - OpenClash - waiting....."
