@@ -19,7 +19,7 @@ echo "(@_@)"
 fi
 #wget https://ghproxy.com/https://github.com/66o99/66o99.github.io/blob/main/ssrp-full/ssrp-full.zip
 curl -O https://op.supes.top/packages/mipsel_24kc/old/xray-core_1.6.0-50_mipsel_24kc.ipk
-wget -cO ssrp-full.zip https://66o99.github.io/ssrp-full/ssrp-full-2.zip
+wget -O ssrp-full.zip https://66o99.github.io/ssrp-full/ssrp-full-2.zip
 unzip -o ssrp-full.zip && opkg install *.ipk && rm -rf ssrp-full.zip *-*.ipk
 	elif [ $input = 2 ];then
 	echo "ok ! install - OpenClash - waiting....."
