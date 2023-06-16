@@ -1,5 +1,5 @@
 #!/bin/sh
-# Command: wget https://66o99.github.io/new.sh && /bin/sh new.sh
+# Command: get https://66o99.github.io/new.sh && /bin/sh new.sh
 rm -rf test.sh && cd /tmp/tmp && opkg update && clear
 cat << EOF
  ---For Mipsel_24Kc-----------------------------------
