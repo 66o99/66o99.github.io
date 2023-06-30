@@ -10,6 +10,7 @@ cat << EOF
  *****************************************************
  ---For Aarch64_Cortex-A53----------------------------
   4 = ShadowSocksR+  5 = OpenClash   < --  Full   - >
+  6 = ShadowSocksR+  < -------- only_A7 -- Full	    >
  -----------------------------------------------------
 EOF
 echo "Input: 1/2/3/4/5"
@@ -62,6 +63,11 @@ opkg install luci-app-openclash_*.ipk && rm -rf luci-app-openclash_*.ipk
 curl -O https://66o99.github.io/clash/7981.tar.gz
 tar -zxvf 7981.tar.gz -C /etc/openclash/core
 chmod 755 /etc/openclash/core/clash
+	elif [ $input = 6 ];then
+	echo "ok ! install - ShadowSocksR - waiting..."
+opkg install luci-compat
+curl -O https://66o99.github.io/ssrp-full/ssrp-full-a7.zip
+unzip -o ssrp-full-a7.zip && opkg install *.ipk && rm -rf *
 	else
 	echo "Input error !"
 	fi
