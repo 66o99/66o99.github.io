@@ -14,7 +14,7 @@ cat << EOF
   6 = ShadowSocksR+  < -------- only_A7 -- Full	    >
  -----------------------------------------------------
 EOF
-echo "Input: 1/2/3/4/5"
+echo "Input: 1/2/3/4/5/6"
 read input
 	if [ $input = 1 ];then
 	echo "ok ! install - ShadowSocksR - waiting..."
