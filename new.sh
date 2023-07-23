@@ -53,12 +53,12 @@ wget https://66o99.github.io/ssrp/ssrp.zip
 unzip -o ssrp.zip && opkg install *.ipk && rm -rf ssrp.zip *-*.ipk
 	elif [ $input = 4 ];then
 	echo "ok ! install - ShadowSocksR - waiting..."
-opkg install luci-compat
+opkg install unzip luci-compat
 curl -O https://66o99.github.io/ssrp-full/ssrp-full-a53.zip
 unzip -o ssrp-full-a53.zip && opkg install *.ipk && rm -rf *
 	elif [ $input = 5 ];then
 	echo "ok ! install - OpenClash - waiting....."
-opkg install luci-compat
+opkg install luci-compat && opkg remove  dnsmasq && opkg install dnsmasq-full --force-depends
 curl -O https://ghproxy.com/https://github.com/vernesong/OpenClash/releases/download/v0.45.59-beta/luci-app-openclash_0.45.59-beta_all.ipk
 opkg install luci-app-openclash_*.ipk && rm -rf luci-app-openclash_*.ipk
 curl -O https://66o99.github.io/clash/7981.tar.gz
