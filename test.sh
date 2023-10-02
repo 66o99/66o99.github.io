@@ -19,7 +19,7 @@ opkg install luci-compat luci-i18n-base-zh-cn
 fi
 curl -O https://ghproxy.com/https://github.com/vernesong/OpenClash/releases/download/v0.45.59-beta/luci-app-openclash_0.45.59-beta_all.ipk
 opkg install luci-app-openclash_*.ipk && rm -rf luci-app-openclash_*.ipk
-curl -O https://66o99.github.io/clash/7621.tar.gz
+curl -O https://66o99.github.io/clash/7621-meta.tar.gz
 tar -zxvf 7621.tar.gz -C /etc/openclash/core
 chmod 755 /etc/openclash/core/clash
 	else
