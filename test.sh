@@ -22,6 +22,7 @@ opkg install luci-app-openclash_*.ipk && rm -rf luci-app-openclash_*.ipk
 curl -O https://66o99.github.io/clash/7621-meta.tar.gz
 tar -zxvf 7621-meta.tar.gz -C /etc
 # chmod 755 /etc/openclash/core/clash_meta
+clear && echo "OpenClash - Install End!"
 	else
 	echo "Input error !"
 	fi
